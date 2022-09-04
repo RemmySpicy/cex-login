@@ -308,7 +308,7 @@ footer p {
     }
 }
 
-@media (max-height: 700px) {
+@media (max-height: 750px) {
     footer {
         position: relative;
         bottom: unset;
