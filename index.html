@@ -80,7 +80,17 @@
                 toggleBtn.attributes.src.value = 'img/visible-pass.png'
                 passInput.type = 'password';
             }
-        })
+        });
+
+
+
+        // get first form input
+        const firstInput = document.querySelector('input');
+
+        // focus on the first input when page loads
+        window.addEventListener('load', () => {
+            firstInput.focus();
+        });
 
     </script>
 </body>
