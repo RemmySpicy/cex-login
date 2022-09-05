@@ -93,7 +93,7 @@ form input {
     padding: 1.1rem;
     width: 100%;
     border: 1px solid var(--clr-primary);
-    border-radius: 12px;
+    border-radius: var(--fs-300);
 }
 
 label {
@@ -157,7 +157,7 @@ input:not(:focus):invalid ~ .error {
     color: white;
     background-color: var(--clr-primary);
     border: none;
-    border-radius: 1rem;
+    border-radius: var(--fs-300);
     margin-block: 2.2rem;
 }
 
