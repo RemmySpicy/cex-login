@@ -159,6 +159,11 @@ input:not(:focus):invalid ~ .error {
     border: none;
     border-radius: var(--fs-300);
     margin-block: 2.2rem;
+    cursor: pointer;
+}
+
+.btn-cta:active {
+    box-shadow: inset 0 0 5px 0 #667c99;
 }
 
 hr {
